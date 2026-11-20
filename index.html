@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#071d42">
+<meta name="description" content="Consulta de autenticidade de certificados do II Simpósio da Educação Profissional e Técnica — URE Sorocaba.">
+<title>Validação de Certificados | II Simpósio EPT Sorocaba</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#consulta">Ir para a consulta</a>
+<header class="hero">
+  <div class="shell">
+    <div class="topline"><span class="institution">UNIDADE REGIONAL DE ENSINO DE SOROCABA</span><span class="year">2026</span></div>
+    <div class="heroGrid">
+      <div class="intro"><div class="eyebrow"><span class="dot"></span> AUTENTICAÇÃO DE DOCUMENTOS</div>
+       <h1>Validação de<br><em>certificados</em></h1>
+       <p>Consulte a autenticidade dos certificados do <strong>II Simpósio da Educação Profissional e Técnica</strong>.</p>
+       <div class="facts"><span>◷ 08 DE DEZEMBRO DE 2026</span><span>✦ 8 HORAS</span><span>⌁ SOROCABA • SP</span></div>
+      </div>
+      <div class="brandPanel"><img src="logo-evento.jpg" alt="Identidade visual do II Simpósio da Educação Profissional e Técnica, Unidade Regional de Ensino de Sorocaba"></div>
+    </div>
+  </div>
+</header>
+<main id="consulta" class="shell content">
+ <section class="lookup" aria-labelledby="lookup-title">
+  <div class="heading"><div class="headingicon" aria-hidden="true">✓</div><div><span class="kicker">CONSULTA PÚBLICA</span><h2 id="lookup-title">Verifique um certificado</h2></div></div>
+  <p class="helper">Digite o código individual informado no certificado, ou abra o endereço recebido por QR Code.</p>
+  <form id="form" novalidate>
+   <label for="codigo">Código de autenticidade</label>
+   <div class="fieldrow"><input id="codigo" name="codigo" autocomplete="off" spellcheck="false" maxlength="80" placeholder="Ex.: S2026-XXXXXXXXXXXXXXXXXXXXXXXX" required aria-describedby="hint"><button type="submit" id="submit">Verificar certificado <span aria-hidden="true">→</span></button></div>
+   <small id="hint">Confira o código antes de realizar a consulta.</small>
+  </form>
+  <div id="response" class="response" aria-live="polite" role="status" hidden></div>
+ </section>
+ <section class="guide" aria-labelledby="guide-title">
+  <div class="guideicon" aria-hidden="true">?</div>
+  <div><h2 id="guide-title">Como verificar seu certificado?</h2><p>Digite o código de autenticidade presente no certificado e clique em <strong>Verificar certificado</strong>. O sistema consultará o registro de emissão e apresentará o resultado da validação.</p></div>
+ </section>
+</main>
+<footer><div class="shell footerline"><div><strong>II Simpósio da Educação Profissional e Técnica</strong><br><span>Unidade Regional de Ensino de Sorocaba • 2026</span></div><div class="footer-help">Em caso de dúvidas, entre em contato com a Comissão Organizadora do II Simpósio da Educação Profissional e Técnica — Unidade Regional de Ensino de Sorocaba.</div></div></footer>
+<script src="config.js"></script><script src="app.js"></script>
+</body>
+</html>
